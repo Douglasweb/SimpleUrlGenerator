@@ -36,12 +36,12 @@ URL do componente usado: [Material_UI](https://material-ui.com/)
 *Telas de Apresentação*
 
 
-![Tela Inicial](https://github.com/Douglasweb/SimpleUrlGenerator/tree/main/link/src/assets/tela1.jpg "Tela Inicial")
+![Tela Inicial](https://github.com/Douglasweb/SimpleUrlGenerator/blob/main/link/src/assets/tela1.jpg "Tela Inicial")
 
 -------------------
 
-![Tela com Loading](https://github.com/Douglasweb/SimpleUrlGenerator/tree/main/link/src/assets/tela2.jpg "Tela com Loading")
+![Tela com Loading](https://github.com/Douglasweb/SimpleUrlGenerator/blob/main/link/src/assets/tela2.jpg "Tela com Loading")
 
 -------------------
 
-![Tela Final](https://github.com/Douglasweb/SimpleUrlGenerator/tree/main/link/src/assets/tela3.jpg "Tela Final")
+![Tela Final](https://github.com/Douglasweb/SimpleUrlGenerator/blob/main/link/src/assets/tela3.jpg "Tela Final")
