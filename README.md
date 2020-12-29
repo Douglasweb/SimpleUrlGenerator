@@ -1,6 +1,6 @@
 # SimpleUrlGenerator
 
-Este é um projeto de estudo usando React, onde uso Material UI para desenhar um layout simples e faço uma requisição async, gerando a URL encurtada.
+Este é um projeto de estudo usando React, onde uso Material UI para desenhar um layout simples onde faço uma validação dos dados e após uma requisição async, gerando a URL encurtada.
 
 
 <p align="center">
@@ -24,12 +24,12 @@ Aqui você poderá ver o que foi usado.
 
 ### `Api de URL`
 
-URL da API Shrtcode utilizada: [Shrtco](https://app.shrtco.de/docs)
+URL da API encurtamento utilizada: [Shrtco](https://app.shrtco.de/docs)
 
 
 ### `Material UI` 
 
-URL do componente usado: [Material_UI](https://material-ui.com/)
+URL da biblioteca de componentes React: [Material_UI](https://material-ui.com/pt/)
 
 
 
