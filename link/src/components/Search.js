@@ -33,6 +33,7 @@ const Search = () => {
                 setIsLoading(!isLoading);
             } else {
                 setMsgerro('Coloque uma URL válida');
+                setShort('');
             }
         }
     };
@@ -71,17 +72,19 @@ const Search = () => {
                     variant="outlined"
                     value={link}
                     onChange={(e) => setlink(e.target.value)}></TextField>
-                {!isLoading && (
-                    <Button
-                        style={{
-                        marginBottom: '20px'
-                    }}
-                        onClick={(e) => handleSubmit(e)}
-                        variant="contained"
-                        color="primary">
-                        Enviar
-                    </Button>
-                )}
+                {!isLoading && 
+                    (
+                        <Button
+                            style={{
+                                marginBottom: '20px'
+                            }}
+                            onClick={(e) => handleSubmit(e)}
+                            variant="contained"
+                            color="primary">
+                            Enviar
+                        </Button>
+                    )
+                }
 
                 {isLoading && <LinearProgress></LinearProgress>}
             </form>
@@ -89,13 +92,13 @@ const Search = () => {
             {short && (
                 <div>
                     URL encurtada:{' '}
-                    <a href={getClickableLink(short)} target="_blank" rel="noreferrer">
-                        {short}
+                    <a href={ getClickableLink(short) } target="_blank" rel="noreferrer">
+                        { short }
                     </a>
                 </div>
             )}
 
-            {msgerro && <div>{msgerro}</div>}
+            { msgerro && <div>{ msgerro }</div> }
         </div>
     );
 };
